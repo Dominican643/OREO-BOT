@@ -6,14 +6,14 @@ import fs from 'fs'
 
 //OwnerShip
 global.owner = [
-  [process.env.OWNER_NUMBER || '919637987574', process.env.OWNER_NAME || 'Developer Shizo 🤖', true],
-  ['919637987574', 'Shizo Techie ❤️✨', true]
+  [process.env.OWNER_NUMBER || '2347015667458', process.env.OWNER_NAME || '✞𝙏𝞖𝞢  𝘿𝞢𝝯𝞘𝙇 𝞖𝞘𝞛𝙎𝞢𝙇𝙁ᵍʳᵉʸ✞ꨄ', true],
+  ['2347015667458', '✞  𝘿𝝯𝞙𝞢 ᵍʳᵉʸ  ✞ꨄ', true]
 ]
 global.mods = []
 global.prems = []
 
-global.author = process.env.OWNER_NAME || 'Shizo The Techie'
-global.botname = process.env.BOT_NAME || 'OREO-BOT'
+global.author = process.env.OWNER_NAME || '✞𝙏𝞖𝞢  𝘿𝞢𝝯𝞘𝙇 𝞖𝞘𝞛𝙎𝞢𝙇𝙁ᵍʳᵉʸ✞ꨄ'
+global.botname = process.env.BOT_NAME || '𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇𝙎 𝞑𝞗𝙏'
  
  
  //Api's
@@ -26,23 +26,23 @@ global.APIKeys = {
 global.shizokeys = 'shizo'
 
 //Sticker Watermarks
-global.stkpack = process.env.BOT_NAME || 'OREO-BOT 🥵'
-global.stkowner = process.env.OWNER_NAME || '© Shizo The Techie'
+global.stkpack = process.env.BOT_NAME || '𝞑𝞢𝙇𝞗𝞜𝙂𝙎 𝙏𝞗'
+global.stkowner = process.env.OWNER_NAME || '𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇'
 
 //Watermark
-global.maker = process.env.MAKER || 'Made with ❤️ by OREO-BOT'
+global.maker = process.env.MAKER || 'Made with 💔 by 𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇𝙎 𝞑𝞗𝙏'
 
 //global emojis
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
-global.dmoji = '🤭'
-global.done = '✅'
+global.dmoji = '😏'
+global.done = '✔️'
 global.error = '❌' 
-global.xmoji = '🔥' 
+global.xmoji = '💔' 
 
 //management
-global.bug = '*!! Sorry 💢 !!*\nSomething went wrong 🌋'
-global.stop = '*!! 🎭 Unfortunately 💔 !!*\nBot system is not Responding 🙃'
+global.bug = '*!! Sorry 💢 !!*\nSomething went wrong 😭'
+global.stop = '*!! 🎭 Unfortunately 💔 !!*\nBot system is not Responding 😕'
 
 //TimeLines
 global.botdate = `*⫹⫺ Date:*  ${moment.tz('Asia/Kolkata').format('DD/MM/YY')}`
